@@ -1,0 +1,70 @@
+@media all and (max-width:1000px){
+    .hel{
+        font-size: 40px;
+    }
+    .intro{
+        font-size: 55px;
+    }
+    .desc{
+        font-size: 25px;
+    }
+    .cont-heading{
+        font-size: 28px;
+    }
+    .about p{
+        font-size: 18px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .subtitle{
+        font-size: 23px;
+    }
+    .inline{
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width:670px){
+    .hel{
+        font-size: 30px;
+    }
+    .intro{
+        font-size: 45px;
+    }
+    .desc{
+        font-size: 15px;
+    }
+    .line{
+        font-size: 20px;
+    }
+    .header-left h1{
+        display: none;
+    }
+    .cont-heading{
+        font-size: 25px;
+    }
+    .about p{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+    .inline{
+        font-size: 14px;
+    }
+    .btn{
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    .no_bullet{
+        font-size: 17px;
+    }
+    .btn span{
+        font-size: 20px;
+    }
+}
