@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-left h1{
+    color: white;
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    /*color: blueviolet;*/
+}
+
+.top-wrapper {
+    padding: 200px 0 100px 0;
+    background-image: url(https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    height: 753px;
+}
+
+.line{
+    color: rgb(255, 251, 0);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.hel{
+    font-size: 45px;
+}
+.intro{
+    font-size: 60px;
+}
+.desc{
+    font-size: 30px;
+}
+
+.content-wrapper{
+    background-color:#f7f7f7;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.cont-heading{
+    text-align: center;
+    font-size: 33px;
+}
+.about p{
+    color: #5f5d60;
+    font-size: 22px;
+}
+.title{
+    font-size: 28px;
+}
+.subtitle{
+    margin-left: 4vw;
+    font-weight: normal;
+}
+.inline{
+    margin-left: 6vw;
+    font-size: 20px;
+    color: #5f5d60;
+}
+.task{
+    color: #5f5d60;
+    margin-left: 6vw;
+}
+.about{
+    padding-top: 15px;
+}
+
+.list{
+    line-height: 2;
+}
+.list span{
+    color: #0078ff;
+    margin-right: 10px;
+}
+.no_bullet{
+    list-style: none;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+.btn:hover {
+    opacity: 1;
+}
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+.linkdin{
+    background-color: rgb(0, 51, 128);
+}
+.insta{
+    background-color: rgb(112, 14, 136);
+}
+.git{
+    background-color: rgb(0, 0, 0);
+}
+.btn span{
+    font-size: 22px;
+}
+.space{
+    margin-right: 5px;
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: rgb(255, 115, 0);
+}
+footer p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
