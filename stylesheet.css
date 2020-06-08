@@ -119,7 +119,7 @@ a {
 .list{
     line-height: 2;
 }
-.list span{
+.list i{
     color: #0078ff;
     margin-right: 10px;
 }
